@@ -1,0 +1,60 @@
+{
+  "label": "sq26_mqr",
+  "image": "sonarqube:26.11.0.134175-community",
+  "sq_version": "26.11.0.134175",
+  "clean_code_mode": {
+    "mode": "MQR",
+    "modified": false
+  },
+  "quality_gates": [
+    {
+      "name": "Sonar way",
+      "conditions": [
+        {
+          "id": "eb1aebe6-33c7-4e92-a572-9e0d8e0c12c3",
+          "metric": "new_violations",
+          "op": "GT",
+          "error": "0",
+          "isCaycCondition": true
+        },
+        {
+          "id": "bf726148-4e72-4b45-85c4-bb9f08ac6509",
+          "metric": "new_coverage",
+          "op": "LT",
+          "error": "80",
+          "isCaycCondition": true
+        },
+        {
+          "id": "6d37f6f8-62f9-4a15-8adb-30cd6fdf5c5d",
+          "metric": "new_duplicated_lines_density",
+          "op": "GT",
+          "error": "3",
+          "isCaycCondition": true
+        },
+        {
+          "id": "a1896b2d-e5a5-417d-8e7c-0f9e5fc68ed8",
+          "metric": "new_security_hotspots_reviewed",
+          "op": "LT",
+          "error": "100",
+          "isCaycCondition": true
+        }
+      ],
+      "isBuiltIn": true,
+      "actions": {
+        "rename": false,
+        "setAsDefault": false,
+        "copy": true,
+        "associateProjects": false,
+        "delete": false,
+        "manageConditions": false,
+        "delegate": false,
+        "manageAiCodeAssurance": false
+      },
+      "caycStatus": "compliant",
+      "isDefault": true,
+      "hasStandardConditions": false,
+      "hasMQRConditions": false,
+      "isAiCodeSupported": false
+    }
+  ]
+}

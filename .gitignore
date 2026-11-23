@@ -1,0 +1,32 @@
+# Python caches & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+envs/
+
+# Large local execution artifacts (Tier 2-4)
+repos/
+figshare_n09/
+data/sq_runs/
+data/linter_runs/
+data/full_newcode_lines.json
+tmp_linter_wt/
+logs/
+
+# LaTeX build intermediates
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+
+# OS & editor clutter
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

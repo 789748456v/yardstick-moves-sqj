@@ -1,0 +1,13 @@
+transition,metric,hr_f010,qhr_f010,hr_f025,qhr_f025,hr_f050,qhr_f050,hr_f100,qhr_f100
+SQ Comp: Std->MQR,density_rel_sec_ksloc,0,0,0,0,0,0,0,0
+SQ 10.3: Std->CC,density_rel_sec_ksloc,1,1,1,1,1,1,1,1
+SQ 26.11: Comp->Core (tot),density_total_ksloc,3,3,3,3,3,3,3,3
+SQ 26.11: Comp->Core (high),density_high_ksloc,1,1,1,1,1,1,1,1
+SQ 10.3->Core MQR (tot),density_total_ksloc,2,1,2,1,2,1,2,1
+SQ 10.3->Core MQR (high),density_high_ksloc,4,3,4,3,4,3,4,3
+SQ 10.3->Comp MQR (high),density_high_ksloc,1,0,1,0,1,0,1,0
+SQ 10.3->Comp MQR (rel),density_rel_sec_ksloc,2,2,2,2,2,2,2,2
+SQ 9.9->Core Std (high),density_high_ksloc,5,3,5,3,5,3,5,3
+Flake8->Ruff Def (tot),density_total_ksloc,8,8,8,8,8,8,7,7
+Pylint->Ruff PL (high),density_high_ksloc,4,3,4,3,4,3,4,3
+Pylint->Ruff Ext (tot),density_total_ksloc,5,5,5,5,5,5,5,5

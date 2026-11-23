@@ -1,0 +1,60 @@
+{
+  "label": "sq99_std",
+  "image": "sonarqube:9.9.8-community",
+  "sq_version": "9.9.8.100196",
+  "quality_gates": [
+    {
+      "id": "AaHTqiLW1oVcUf2i51pp",
+      "name": "Sonar way",
+      "conditions": [
+        {
+          "id": "AaHTqi8G1oVcUf2i51sO",
+          "metric": "new_security_rating",
+          "op": "GT",
+          "error": "1"
+        },
+        {
+          "id": "AaHTqi8I1oVcUf2i51sP",
+          "metric": "new_reliability_rating",
+          "op": "GT",
+          "error": "1"
+        },
+        {
+          "id": "AaHTqi8I1oVcUf2i51sQ",
+          "metric": "new_maintainability_rating",
+          "op": "GT",
+          "error": "1"
+        },
+        {
+          "id": "AaHTqi8J1oVcUf2i51sR",
+          "metric": "new_coverage",
+          "op": "LT",
+          "error": "80"
+        },
+        {
+          "id": "AaHTqi8K1oVcUf2i51sS",
+          "metric": "new_duplicated_lines_density",
+          "op": "GT",
+          "error": "3"
+        },
+        {
+          "id": "AaHTqi8L1oVcUf2i51sT",
+          "metric": "new_security_hotspots_reviewed",
+          "op": "LT",
+          "error": "100"
+        }
+      ],
+      "isBuiltIn": true,
+      "actions": {
+        "rename": false,
+        "setAsDefault": false,
+        "copy": true,
+        "associateProjects": false,
+        "delete": false,
+        "manageConditions": false,
+        "delegate": false
+      },
+      "caycStatus": "compliant"
+    }
+  ]
+}

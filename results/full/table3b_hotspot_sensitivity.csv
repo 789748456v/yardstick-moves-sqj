@@ -1,0 +1,6 @@
+transition_family,metric_kind,n_active_repos,rcap_total,rcap_non_hotspot,rcap_hotspot_migrated,mean_share_code_pct,mean_share_ruleset_pct,mean_share_impl_nonhs_detector_pct,mean_share_impl_hotspot_channel_pct,mean_share_tax_pct,mean_weighted_births_nonhs,mean_weighted_births_hotspot,mean_weighted_deaths
+SQ 10.3 [N09] -> SQ 26.11 Core MQR,HIGH,49,120,87,33,4.74,81.3,1.11,7.47,5.38,2.03,27.2,5.72
+SQ 10.3 [N09] -> SQ 26.11 Comp MQR,HIGH,49,214,181,33,12.89,8.05,51.74,16.67,10.64,3.97,27.2,212.88
+SQ 9.9 LTA -> SQ 26.11 Core MQR,HIGH,49,102,70,32,4.86,81.31,0.87,7.55,5.41,2.19,27.1,3.95
+SQ 9.9 LTA -> SQ 26.11 Comp MQR,HIGH,49,179,147,32,12.77,10.61,50.06,16.43,10.14,8.69,27.09,209.68
+SQ 10.3 [N09] -> SQ 26.11 Comp MQR (Rel/Sec),REL_SEC,49,214,181,33,3.47,8.31,20.1,0.0,68.11,2.96,0.0,31.95

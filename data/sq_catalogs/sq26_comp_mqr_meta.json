@@ -1,0 +1,142 @@
+{
+  "label": "sq26_comp_mqr",
+  "image": "sonarqube:26.11.0.134175-community",
+  "profile_name": "Sonar way comprehensive",
+  "sq_version": "26.11.0.134175",
+  "clean_code_mode": {
+    "mode": "MQR",
+    "modified": false
+  },
+  "py_profiles": [
+    {
+      "key": "5509eddd-cfa0-40e7-bf70-c095ec1f9019",
+      "name": "Sonar way core",
+      "language": "py",
+      "languageName": "Python",
+      "isInherited": false,
+      "isDefault": false,
+      "activeRuleCount": 232,
+      "activeDeprecatedRuleCount": 0,
+      "projectCount": 0,
+      "rulesUpdatedAt": "2026-11-13T11:01:49+0000",
+      "isBuiltIn": true,
+      "actions": {
+        "edit": false,
+        "setAsDefault": true,
+        "copy": true,
+        "associateProjects": true,
+        "delete": false
+      }
+    },
+    {
+      "key": "f223e5b2-de68-47c5-ab1c-445530fb90ae",
+      "name": "Sonar way extended",
+      "language": "py",
+      "languageName": "Python",
+      "isInherited": false,
+      "isDefault": false,
+      "activeRuleCount": 266,
+      "activeDeprecatedRuleCount": 0,
+      "projectCount": 0,
+      "rulesUpdatedAt": "2026-11-13T11:01:49+0000",
+      "isBuiltIn": true,
+      "actions": {
+        "edit": false,
+        "setAsDefault": true,
+        "copy": true,
+        "associateProjects": true,
+        "delete": false
+      }
+    },
+    {
+      "key": "ce03f9ab-7d01-4061-9d13-bb3b24f7c514",
+      "name": "Sonar way comprehensive",
+      "language": "py",
+      "languageName": "Python",
+      "isInherited": false,
+      "isDefault": true,
+      "activeRuleCount": 407,
+      "activeDeprecatedRuleCount": 0,
+      "rulesUpdatedAt": "2026-11-13T11:01:49+0000",
+      "isBuiltIn": true,
+      "actions": {
+        "edit": false,
+        "setAsDefault": false,
+        "copy": true,
+        "associateProjects": false,
+        "delete": false
+      }
+    },
+    {
+      "key": "de7ac6b8-31ee-4c16-9143-9316f0c77d0c",
+      "name": "Sonar agentic AI",
+      "language": "py",
+      "languageName": "Python",
+      "isInherited": false,
+      "isDefault": false,
+      "activeRuleCount": 306,
+      "activeDeprecatedRuleCount": 0,
+      "projectCount": 0,
+      "rulesUpdatedAt": "2026-11-13T11:01:49+0000",
+      "isBuiltIn": true,
+      "actions": {
+        "edit": false,
+        "setAsDefault": true,
+        "copy": true,
+        "associateProjects": true,
+        "delete": false
+      }
+    }
+  ],
+  "quality_gates": [
+    {
+      "name": "Sonar way",
+      "conditions": [
+        {
+          "id": "62cbf197-8d02-4da2-8618-cde184a103b7",
+          "metric": "new_violations",
+          "op": "GT",
+          "error": "0",
+          "isCaycCondition": true
+        },
+        {
+          "id": "6e7f5278-c45b-44ca-b816-97c5fb3f1b71",
+          "metric": "new_coverage",
+          "op": "LT",
+          "error": "80",
+          "isCaycCondition": true
+        },
+        {
+          "id": "a4d82f61-bb86-46ba-b063-182a3f6916ca",
+          "metric": "new_duplicated_lines_density",
+          "op": "GT",
+          "error": "3",
+          "isCaycCondition": true
+        },
+        {
+          "id": "dfaa985d-df36-4726-a80f-1d897af185ad",
+          "metric": "new_security_hotspots_reviewed",
+          "op": "LT",
+          "error": "100",
+          "isCaycCondition": true
+        }
+      ],
+      "isBuiltIn": true,
+      "actions": {
+        "rename": false,
+        "setAsDefault": false,
+        "copy": true,
+        "associateProjects": false,
+        "delete": false,
+        "manageConditions": false,
+        "delegate": false,
+        "manageAiCodeAssurance": false
+      },
+      "caycStatus": "compliant",
+      "isDefault": true,
+      "hasStandardConditions": false,
+      "hasMQRConditions": false,
+      "isAiCodeSupported": false
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+transition,n_repos,n_repos_with_anchor_debt,n_post_transitions,rk1_naive_ratchet_agree_pct,rk1_s1_rcap_count_ratchet_agree_pct,rk1_1anchor_count_ratchet_agree_pct,rk1_persist_fp_ratchet_agree_pct,post_s1_rcap_count_ratchet_agree_pct,post_1anchor_count_ratchet_agree_pct,post_persist_fp_ratchet_agree_pct,post_step_fp_strict_vs_newcode_agree_pct,post_persist_fp_strict_vs_newcode_agree_pct,mean_uncalibrated_high_alarms_at_rk1,mean_trackA_unsuppressed_new_alarms_at_rk1,rk1_alarm_flood_reduction_pct,mean_baseline_retired_monotonic_by_T_pct,mean_baseline_retired_endpoint_by_T_pct
+SQ 10.3 [N09] -> SQ 26.11 Core MQR,49,48,445,79.6,42.9,100.0,79.6,86.5,100.0,91.0,92.4,60.4,43.6,1.53,96.5,38.8,35.0
+SQ 10.3 [N09] -> SQ 26.11 Comp MQR,49,49,445,59.2,65.3,100.0,81.6,94.8,100.0,86.1,96.2,69.9,363.4,16.0,95.6,37.9,34.6
+SQ 9.9 LTA Std -> SQ 26.11 Core MQR,49,48,445,79.6,53.1,100.0,79.6,86.3,100.0,91.0,92.4,60.4,43.6,1.53,96.5,38.8,35.0
+Flake8 7.1 -> Ruff 0.17.5 (Extended),49,49,445,51.0,71.4,100.0,73.5,88.1,100.0,86.7,97.1,73.5,700.8,28.61,95.9,43.0,39.3
+Pylint 3.3 -> Ruff 0.17.5 (Pylint-PL Aligned),49,46,445,71.4,63.3,100.0,77.6,96.0,100.0,90.8,94.6,71.9,413.4,16.35,96.0,54.0,50.1

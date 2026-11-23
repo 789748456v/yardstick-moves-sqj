@@ -1,0 +1,16 @@
+comparison,n_monotone_transitions,native_qg_flip_pct,cayc_allnew_flip_pct,new_high_flip_pct,new_rel_sec_attr_flip_pct,ratchet_high_flip_pct
+"SQ 26.11 Core: Standard -> MQR (Pure Taxonomy, 232 rules)",781,0.0,0.0,1.54,7.17,1.28
+"SQ 26.11 Comprehensive: Standard -> MQR (Pure Taxonomy, 407 rules)",781,0.0,0.0,0.38,7.17,0.64
+SQ 26.11 MQR: Comprehensive (407) -> Default Core (232) (Pure Profile Split),781,29.71,29.71,27.78,1.02,24.84
+SQ 10.3 [N09] Std -> CleanCode Impact (Same Version Dual View),781,0.0,0.0,0.26,6.15,0.51
+SQ 10.3 [N09] -> SQ 26.11 Core MQR (Default Post-N09 Upgrade),781,36.75,35.34,37.52,19.46,34.31
+SQ 10.3 [N09] -> SQ 26.11 Comprehensive MQR (Rule-Preserving Upgrade),781,9.6,8.19,10.24,18.95,14.85
+SQ 9.9 LTA Std -> SQ 26.11 Core Std (Pure LTA Engine+Profile Upgrade),781,18.05,34.44,38.67,18.57,35.72
+SQ 9.9 LTA Std -> SQ 26.11 Core MQR (LTA -> Modern Default MQR),781,18.05,34.44,37.13,22.66,34.7
+SQ 9.9 LTA Std -> SQ 26.11 Comprehensive MQR (LTA -> Comprehensive MQR),781,33.67,8.32,9.86,22.15,14.98
+Flake8 7.1 -> Ruff 0.17.5 (Default Profile),781,8.45,12.55,8.45,8.45,9.6
+Flake8 7.1 -> Ruff 0.17.5 (Extended Profile),781,12.42,6.79,12.42,12.42,12.29
+Pylint 3.3 -> Ruff 0.17.5 (Pylint-PL Aligned Profile),781,23.05,20.1,23.05,23.05,26.5
+Pylint 3.3 -> Ruff 0.17.5 (Extended Profile),781,19.21,6.02,19.21,19.21,26.25
+Pylint 2.17 -> Pylint 3.3 (Cross-Major Upgrade),781,3.71,0.51,3.71,3.71,7.55
+Ruff 0.1.15 -> Ruff 0.17.5 (Extended Cross-Version),781,4.61,1.15,4.61,4.61,6.15

@@ -1,0 +1,18 @@
+scope,transition,full_val,monotone_val
+RQ2_Raw_Rev,SQ Comp: Std->MQR,1.0,1.0
+RQ2_Raw_Rev,SQ 10.3: Std->CC,1.0,1.0
+RQ2_Raw_Rev,SQ 26.11: Comp->Core (tot),3.0,2.0
+RQ2_Raw_Rev,SQ 26.11: Comp->Core (high),2.0,2.0
+RQ2_Raw_Rev,SQ 10.3->Core MQR (tot),2.0,2.0
+RQ2_Raw_Rev,SQ 10.3->Core MQR (high),7.0,5.0
+RQ2_Raw_Rev,SQ 10.3->Comp MQR (high),3.0,2.0
+RQ2_Raw_Rev,SQ 10.3->Comp MQR (rel),4.0,4.0
+RQ2_Raw_Rev,SQ 9.9->Core Std (high),8.0,8.0
+RQ2_Raw_Rev,Flake8->Ruff Def (tot),9.0,9.0
+RQ2_Raw_Rev,Pylint->Ruff PL (high),4.0,4.0
+RQ2_Raw_Rev,Pylint->Ruff Ext (tot),9.0,9.0
+RQ4_Mid_S2_Reduction_Pct,SQ 10.3 -> Core MQR,85.9,87.1
+RQ4_Mid_S2_Reduction_Pct,SQ 10.3 -> Comp MQR,82.5,87.7
+RQ4_Mid_S2_Reduction_Pct,SQ 9.9 -> Core MQR,86.1,87.2
+RQ4_Mid_S2_Reduction_Pct,Flake8 -> Ruff Ext,74.5,81.9
+RQ4_Mid_S2_Reduction_Pct,Pylint -> Ruff PL,64.9,72.2

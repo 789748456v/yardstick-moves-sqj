@@ -1,0 +1,76 @@
+anchor_horizon,transition,strategy,extra_scans_per_repo,n_repos,boundary_cliff_mae_ksloc,full_slope_mae_vs_historical,full_slope_median_iqr_vs_historical,post_slope_mae_vs_target,wilcoxon_p_vs_naive,wilcoxon_p_vs_s1,full_series_hist_sign_match_pct,full_series_target_sign_match_pct,post_switch_density_ratchet_agree_pct,historical_trend_sign_match_pct,target_trend_sign_match_pct,post_switch_ratchet_gate_agree_pct
+Early (0.35T),SQ 10.3 [N09] -> SQ 26.11 Core MQR,S0_Naive_Unadjusted,0,49,6.261,0.2294,"0.1549 [0.0316, 0.2651]",0.0,,,61.2,73.5,97.5,61.2,73.5,97.5
+Early (0.35T),SQ 10.3 [N09] -> SQ 26.11 Core MQR,S1_CommonRule_Catalog_Filter,0,49,0.205,0.0739,"0.0233 [0.0072, 0.0933]",0.0097,0.0,,46.9,55.1,87.4,46.9,55.1,87.4
+Early (0.35T),SQ 10.3 [N09] -> SQ 26.11 Core MQR,S2_SingleAnchor_Additive_Offset,1,49,0.0,0.0707,"0.0248 [0.0092, 0.0860]",0.0,0.0,0.31323,61.2,77.6,100.0,61.2,77.6,100.0
+Early (0.35T),SQ 10.3 [N09] -> SQ 26.11 Core MQR,S3_SingleAnchor_Safeguarded_Ratio,1,49,1.114,0.1179,"0.0688 [0.0187, 0.1407]",0.1012,0.00027,0.00606,55.1,83.7,99.8,55.1,83.7,99.8
+Early (0.35T),SQ 10.3 [N09] -> SQ 26.11 Core MQR,S4_Window3_Moment_Affine,3,49,0.518,0.0645,"0.0257 [0.0073, 0.1014]",0.067,0.0,0.53415,65.3,85.7,97.2,65.3,85.7,97.2
+Early (0.35T),SQ 10.3 [N09] -> SQ 26.11 Comp MQR,S0_Naive_Unadjusted,0,49,2.199,0.1133,"0.0487 [0.0288, 0.1330]",0.0,,,67.3,77.6,97.4,67.3,77.6,97.4
+Early (0.35T),SQ 10.3 [N09] -> SQ 26.11 Comp MQR,S1_CommonRule_Catalog_Filter,0,49,2.282,0.101,"0.0337 [0.0201, 0.0819]",0.0136,0.28504,,67.3,81.6,92.8,67.3,81.6,92.8
+Early (0.35T),SQ 10.3 [N09] -> SQ 26.11 Comp MQR,S2_SingleAnchor_Additive_Offset,1,49,0.0,0.0313,"0.0162 [0.0041, 0.0361]",0.0,0.0,3e-05,75.5,89.8,100.0,75.5,89.8,100.0
+Early (0.35T),SQ 10.3 [N09] -> SQ 26.11 Comp MQR,S3_SingleAnchor_Safeguarded_Ratio,1,49,0.104,0.0354,"0.0155 [0.0069, 0.0452]",0.0244,0.0,5e-05,77.6,91.8,100.0,77.6,91.8,100.0
+Early (0.35T),SQ 10.3 [N09] -> SQ 26.11 Comp MQR,S4_Window3_Moment_Affine,3,49,0.327,0.0493,"0.0186 [0.0061, 0.0390]",0.0369,1e-05,0.00018,75.5,93.9,99.1,75.5,93.9,99.1
+Early (0.35T),SQ 9.9 LTA Std -> SQ 26.11 Core MQR,S0_Naive_Unadjusted,0,49,6.14,0.2237,"0.1416 [0.0358, 0.2619]",0.0,,,57.1,73.5,97.5,57.1,73.5,97.5
+Early (0.35T),SQ 9.9 LTA Std -> SQ 26.11 Core MQR,S1_CommonRule_Catalog_Filter,0,49,0.142,0.0745,"0.0244 [0.0092, 0.0864]",0.0107,0.0,,42.9,57.1,86.3,42.9,57.1,86.3
+Early (0.35T),SQ 9.9 LTA Std -> SQ 26.11 Core MQR,S2_SingleAnchor_Additive_Offset,1,49,0.0,0.0684,"0.0245 [0.0092, 0.0846]",0.0,0.0,0.20132,63.3,79.6,100.0,63.3,79.6,100.0
+Early (0.35T),SQ 9.9 LTA Std -> SQ 26.11 Core MQR,S3_SingleAnchor_Safeguarded_Ratio,1,49,1.081,0.1159,"0.0693 [0.0173, 0.1426]",0.0998,0.0005,0.01348,57.1,83.7,99.8,57.1,83.7,99.8
+Early (0.35T),SQ 9.9 LTA Std -> SQ 26.11 Core MQR,S4_Window3_Moment_Affine,3,49,0.509,0.0619,"0.0229 [0.0077, 0.1003]",0.0656,0.0,0.52122,63.3,87.8,97.2,63.3,87.8,97.2
+Early (0.35T),Flake8 7.1 -> Ruff 0.17.5 (Extended),S0_Naive_Unadjusted,0,49,2.54,0.15,"0.1015 [0.0317, 0.1864]",0.0,,,57.1,55.1,95.6,57.1,55.1,95.6
+Early (0.35T),Flake8 7.1 -> Ruff 0.17.5 (Extended),S1_CommonRule_Catalog_Filter,0,49,0.739,0.0437,"0.0061 [0.0014, 0.0366]",0.0783,0.0,,95.9,83.7,89.0,95.9,83.7,89.0
+Early (0.35T),Flake8 7.1 -> Ruff 0.17.5 (Extended),S2_SingleAnchor_Additive_Offset,1,49,0.0,0.0726,"0.0178 [0.0019, 0.0787]",0.0045,1e-05,0.01745,89.8,91.8,99.3,89.8,91.8,99.3
+Early (0.35T),Flake8 7.1 -> Ruff 0.17.5 (Extended),S3_SingleAnchor_Safeguarded_Ratio,1,49,0.377,0.0544,"0.0237 [0.0042, 0.0725]",0.0728,0.0,0.02848,85.7,91.8,100.0,85.7,91.8,100.0
+Early (0.35T),Flake8 7.1 -> Ruff 0.17.5 (Extended),S4_Window3_Moment_Affine,3,49,1.628,0.1324,"0.0168 [0.0021, 0.0860]",0.0914,0.00036,0.01271,83.7,93.9,95.8,83.7,93.9,95.8
+Early (0.35T),Pylint 3.3 -> Ruff 0.17.5 (Pylint-PL Aligned),S0_Naive_Unadjusted,0,49,6.03,0.3087,"0.1194 [0.0381, 0.2393]",0.0,,,69.4,69.4,97.0,69.4,69.4,97.0
+Early (0.35T),Pylint 3.3 -> Ruff 0.17.5 (Pylint-PL Aligned),S1_CommonRule_Catalog_Filter,0,49,4.457,0.3074,"0.0805 [0.0269, 0.3169]",0.0,0.82579,,55.1,46.9,95.3,55.1,46.9,95.3
+Early (0.35T),Pylint 3.3 -> Ruff 0.17.5 (Pylint-PL Aligned),S2_SingleAnchor_Additive_Offset,1,49,0.325,0.2021,"0.0433 [0.0135, 0.1964]",0.1049,0.00699,0.0002,71.4,85.7,97.2,71.4,85.7,97.2
+Early (0.35T),Pylint 3.3 -> Ruff 0.17.5 (Pylint-PL Aligned),S3_SingleAnchor_Safeguarded_Ratio,1,49,1.28,0.2621,"0.0526 [0.0191, 0.1611]",0.2583,0.04333,0.09878,73.5,85.7,99.3,73.5,85.7,99.3
+Early (0.35T),Pylint 3.3 -> Ruff 0.17.5 (Pylint-PL Aligned),S4_Window3_Moment_Affine,3,49,1.658,0.2249,"0.0507 [0.0114, 0.1302]",0.2807,0.03045,0.00436,71.4,87.8,97.2,71.4,87.8,97.2
+Mid (0.50T),SQ 10.3 [N09] -> SQ 26.11 Core MQR,S0_Naive_Unadjusted,0,49,6.042,0.4197,"0.3470 [0.2319, 0.4601]",0.0,,,61.2,73.5,96.2,61.2,73.5,96.2
+Mid (0.50T),SQ 10.3 [N09] -> SQ 26.11 Core MQR,S1_CommonRule_Catalog_Filter,0,49,0.202,0.0758,"0.0255 [0.0090, 0.1032]",0.0062,0.0,,44.9,53.1,87.0,44.9,53.1,87.0
+Mid (0.50T),SQ 10.3 [N09] -> SQ 26.11 Core MQR,S2_SingleAnchor_Additive_Offset,1,49,0.0,0.0593,"0.0196 [0.0071, 0.0518]",0.0,0.0,0.02364,63.3,69.4,100.0,63.3,69.4,100.0
+Mid (0.50T),SQ 10.3 [N09] -> SQ 26.11 Core MQR,S3_SingleAnchor_Safeguarded_Ratio,1,49,0.91,0.1095,"0.0451 [0.0123, 0.1321]",0.1281,0.0,0.119,59.2,73.5,99.1,59.2,73.5,99.1
+Mid (0.50T),SQ 10.3 [N09] -> SQ 26.11 Core MQR,S4_Window3_Moment_Affine,3,49,0.257,0.0555,"0.0255 [0.0070, 0.0902]",0.047,0.0,0.22329,65.3,77.6,97.5,65.3,77.6,97.5
+Mid (0.50T),SQ 10.3 [N09] -> SQ 26.11 Comp MQR,S0_Naive_Unadjusted,0,49,2.247,0.1716,"0.0701 [0.0351, 0.2402]",0.0,,,67.3,77.6,94.4,67.3,77.6,94.4
+Mid (0.50T),SQ 10.3 [N09] -> SQ 26.11 Comp MQR,S1_CommonRule_Catalog_Filter,0,49,2.246,0.1698,"0.0683 [0.0269, 0.2549]",0.0117,0.51154,,67.3,81.6,91.5,67.3,81.6,91.5
+Mid (0.50T),SQ 10.3 [N09] -> SQ 26.11 Comp MQR,S2_SingleAnchor_Additive_Offset,1,49,0.0,0.03,"0.0162 [0.0055, 0.0337]",0.0,0.0,0.0,77.6,91.8,100.0,77.6,91.8,100.0
+Mid (0.50T),SQ 10.3 [N09] -> SQ 26.11 Comp MQR,S3_SingleAnchor_Safeguarded_Ratio,1,49,0.089,0.0342,"0.0158 [0.0030, 0.0418]",0.0278,0.0,0.0,77.6,91.8,100.0,77.6,91.8,100.0
+Mid (0.50T),SQ 10.3 [N09] -> SQ 26.11 Comp MQR,S4_Window3_Moment_Affine,3,49,0.129,0.0309,"0.0200 [0.0055, 0.0373]",0.0357,0.0,0.0,75.5,98.0,98.0,75.5,98.0,98.0
+Mid (0.50T),SQ 9.9 LTA Std -> SQ 26.11 Core MQR,S0_Naive_Unadjusted,0,49,5.923,0.4108,"0.3302 [0.2332, 0.4530]",0.0,,,57.1,73.5,96.2,57.1,73.5,96.2
+Mid (0.50T),SQ 9.9 LTA Std -> SQ 26.11 Core MQR,S1_CommonRule_Catalog_Filter,0,49,0.149,0.0758,"0.0266 [0.0086, 0.0951]",0.0077,0.0,,40.8,55.1,85.6,40.8,55.1,85.6
+Mid (0.50T),SQ 9.9 LTA Std -> SQ 26.11 Core MQR,S2_SingleAnchor_Additive_Offset,1,49,0.0,0.0571,"0.0180 [0.0053, 0.0509]",0.0,0.0,0.00711,65.3,69.4,100.0,65.3,69.4,100.0
+Mid (0.50T),SQ 9.9 LTA Std -> SQ 26.11 Core MQR,S3_SingleAnchor_Safeguarded_Ratio,1,49,0.889,0.1064,"0.0457 [0.0111, 0.1311]",0.1263,0.0,0.16821,61.2,73.5,99.3,61.2,73.5,99.3
+Mid (0.50T),SQ 9.9 LTA Std -> SQ 26.11 Core MQR,S4_Window3_Moment_Affine,3,49,0.253,0.0538,"0.0244 [0.0071, 0.0835]",0.0465,0.0,0.22711,65.3,77.6,97.5,65.3,77.6,97.5
+Mid (0.50T),Flake8 7.1 -> Ruff 0.17.5 (Extended),S0_Naive_Unadjusted,0,49,2.813,0.1702,"0.1330 [0.0413, 0.2161]",0.0,,,57.1,55.1,94.2,57.1,55.1,94.2
+Mid (0.50T),Flake8 7.1 -> Ruff 0.17.5 (Extended),S1_CommonRule_Catalog_Filter,0,49,1.172,0.0515,"0.0090 [0.0014, 0.0382]",0.0806,0.0,,95.9,83.7,87.6,95.9,83.7,87.6
+Mid (0.50T),Flake8 7.1 -> Ruff 0.17.5 (Extended),S2_SingleAnchor_Additive_Offset,1,49,0.127,0.0435,"0.0156 [0.0019, 0.0454]",0.0197,0.0,0.28543,85.7,89.8,98.0,85.7,89.8,98.0
+Mid (0.50T),Flake8 7.1 -> Ruff 0.17.5 (Extended),S3_SingleAnchor_Safeguarded_Ratio,1,49,0.285,0.0496,"0.0181 [0.0035, 0.0870]",0.0985,0.0,0.22329,77.6,81.6,98.9,77.6,81.6,98.9
+Mid (0.50T),Flake8 7.1 -> Ruff 0.17.5 (Extended),S4_Window3_Moment_Affine,3,49,0.432,0.0561,"0.0187 [0.0018, 0.0560]",0.0967,0.0,0.12633,87.8,91.8,98.4,87.8,91.8,98.4
+Mid (0.50T),Pylint 3.3 -> Ruff 0.17.5 (Pylint-PL Aligned),S0_Naive_Unadjusted,0,49,5.908,0.4148,"0.1390 [0.0570, 0.4581]",0.0,,,67.3,67.3,96.6,67.3,67.3,96.6
+Mid (0.50T),Pylint 3.3 -> Ruff 0.17.5 (Pylint-PL Aligned),S1_CommonRule_Catalog_Filter,0,49,3.646,0.3711,"0.1580 [0.0356, 0.4165]",0.0,0.87388,,53.1,44.9,94.2,53.1,44.9,94.2
+Mid (0.50T),Pylint 3.3 -> Ruff 0.17.5 (Pylint-PL Aligned),S2_SingleAnchor_Additive_Offset,1,49,0.0,0.1457,"0.0255 [0.0065, 0.1977]",0.0627,1e-05,0.0,81.6,75.5,99.3,81.6,75.5,99.3
+Mid (0.50T),Pylint 3.3 -> Ruff 0.17.5 (Pylint-PL Aligned),S3_SingleAnchor_Safeguarded_Ratio,1,49,0.662,0.1955,"0.0419 [0.0057, 0.1607]",0.1945,0.0,0.00037,77.6,73.5,100.0,77.6,73.5,100.0
+Mid (0.50T),Pylint 3.3 -> Ruff 0.17.5 (Pylint-PL Aligned),S4_Window3_Moment_Affine,3,49,1.523,0.2176,"0.0372 [0.0060, 0.2242]",0.21,1e-05,0.00092,71.4,75.5,96.0,71.4,75.5,96.0
+Late (0.65T),SQ 10.3 [N09] -> SQ 26.11 Core MQR,S0_Naive_Unadjusted,0,49,5.972,0.2597,"0.1694 [0.0605, 0.3194]",0.0,,,61.2,73.5,97.1,61.2,73.5,97.1
+Late (0.65T),SQ 10.3 [N09] -> SQ 26.11 Core MQR,S1_CommonRule_Catalog_Filter,0,49,0.212,0.0741,"0.0231 [0.0075, 0.0933]",0.0076,0.0,,44.9,51.0,83.3,44.9,51.0,83.3
+Late (0.65T),SQ 10.3 [N09] -> SQ 26.11 Core MQR,S2_SingleAnchor_Additive_Offset,1,49,0.0,0.0432,"0.0130 [0.0025, 0.0276]",0.0,0.0,0.00014,77.6,65.3,100.0,77.6,65.3,100.0
+Late (0.65T),SQ 10.3 [N09] -> SQ 26.11 Core MQR,S3_SingleAnchor_Safeguarded_Ratio,1,49,0.795,0.0762,"0.0290 [0.0064, 0.0612]",0.1597,0.0,0.96855,67.3,65.3,100.0,67.3,65.3,100.0
+Late (0.65T),SQ 10.3 [N09] -> SQ 26.11 Core MQR,S4_Window3_Moment_Affine,3,49,0.215,0.0363,"0.0181 [0.0078, 0.0380]",0.0738,0.0,0.07993,67.3,73.5,95.2,67.3,73.5,95.2
+Late (0.65T),SQ 10.3 [N09] -> SQ 26.11 Comp MQR,S0_Naive_Unadjusted,0,49,2.298,0.1256,"0.0519 [0.0316, 0.1623]",0.0,,,69.4,79.6,94.9,69.4,79.6,94.9
+Late (0.65T),SQ 10.3 [N09] -> SQ 26.11 Comp MQR,S1_CommonRule_Catalog_Filter,0,49,2.236,0.1175,"0.0452 [0.0224, 0.0869]",0.0117,0.42299,,67.3,81.6,93.9,67.3,81.6,93.9
+Late (0.65T),SQ 10.3 [N09] -> SQ 26.11 Comp MQR,S2_SingleAnchor_Additive_Offset,1,49,0.0,0.0137,"0.0085 [0.0017, 0.0183]",0.0,0.0,0.0,87.8,85.7,100.0,87.8,85.7,100.0
+Late (0.65T),SQ 10.3 [N09] -> SQ 26.11 Comp MQR,S3_SingleAnchor_Safeguarded_Ratio,1,49,0.032,0.0161,"0.0093 [0.0017, 0.0236]",0.035,0.0,0.0,83.7,83.7,100.0,83.7,83.7,100.0
+Late (0.65T),SQ 10.3 [N09] -> SQ 26.11 Comp MQR,S4_Window3_Moment_Affine,3,49,0.087,0.0231,"0.0103 [0.0019, 0.0280]",0.0389,0.0,0.0,79.6,91.8,98.1,79.6,91.8,98.1
+Late (0.65T),SQ 9.9 LTA Std -> SQ 26.11 Core MQR,S0_Naive_Unadjusted,0,49,5.86,0.2538,"0.1607 [0.0616, 0.3026]",0.0,,,57.1,73.5,97.1,57.1,73.5,97.1
+Late (0.65T),SQ 9.9 LTA Std -> SQ 26.11 Core MQR,S1_CommonRule_Catalog_Filter,0,49,0.153,0.0743,"0.0243 [0.0102, 0.0864]",0.0086,0.0,,40.8,53.1,81.4,40.8,53.1,81.4
+Late (0.65T),SQ 9.9 LTA Std -> SQ 26.11 Core MQR,S2_SingleAnchor_Additive_Offset,1,49,0.0,0.0439,"0.0121 [0.0038, 0.0275]",0.0,0.0,3e-05,73.5,67.3,100.0,73.5,67.3,100.0
+Late (0.65T),SQ 9.9 LTA Std -> SQ 26.11 Core MQR,S3_SingleAnchor_Safeguarded_Ratio,1,49,0.776,0.0751,"0.0279 [0.0043, 0.0647]",0.1569,0.0,0.90584,63.3,65.3,100.0,63.3,65.3,100.0
+Late (0.65T),SQ 9.9 LTA Std -> SQ 26.11 Core MQR,S4_Window3_Moment_Affine,3,49,0.225,0.0357,"0.0177 [0.0069, 0.0371]",0.071,0.0,0.04711,69.4,71.4,95.2,69.4,71.4,95.2
+Late (0.65T),Flake8 7.1 -> Ruff 0.17.5 (Extended),S0_Naive_Unadjusted,0,49,2.97,0.1456,"0.0995 [0.0315, 0.1918]",0.0,,,57.1,55.1,91.3,57.1,55.1,91.3
+Late (0.65T),Flake8 7.1 -> Ruff 0.17.5 (Extended),S1_CommonRule_Catalog_Filter,0,49,1.249,0.0396,"0.0069 [0.0007, 0.0237]",0.1019,0.0,,95.9,83.7,87.1,95.9,83.7,87.1
+Late (0.65T),Flake8 7.1 -> Ruff 0.17.5 (Extended),S2_SingleAnchor_Additive_Offset,1,49,0.201,0.0761,"0.0041 [0.0013, 0.0452]",0.0629,0.0,0.68915,89.8,89.8,98.4,89.8,89.8,98.4
+Late (0.65T),Flake8 7.1 -> Ruff 0.17.5 (Extended),S3_SingleAnchor_Safeguarded_Ratio,1,49,0.485,0.0704,"0.0050 [0.0008, 0.0501]",0.0762,0.0,0.49845,83.7,87.8,98.4,83.7,87.8,98.4
+Late (0.65T),Flake8 7.1 -> Ruff 0.17.5 (Extended),S4_Window3_Moment_Affine,3,49,0.587,0.1419,"0.0082 [0.0013, 0.0628]",0.1436,3e-05,0.25923,89.8,89.8,96.1,89.8,89.8,96.1
+Late (0.65T),Pylint 3.3 -> Ruff 0.17.5 (Pylint-PL Aligned),S0_Naive_Unadjusted,0,49,5.779,0.3114,"0.0797 [0.0406, 0.2225]",0.0,,,65.3,69.4,94.5,65.3,69.4,94.5
+Late (0.65T),Pylint 3.3 -> Ruff 0.17.5 (Pylint-PL Aligned),S1_CommonRule_Catalog_Filter,0,49,3.683,0.2861,"0.0721 [0.0234, 0.2692]",0.0,0.49584,,53.1,46.9,92.3,53.1,46.9,92.3
+Late (0.65T),Pylint 3.3 -> Ruff 0.17.5 (Pylint-PL Aligned),S2_SingleAnchor_Additive_Offset,1,49,0.272,0.0964,"0.0182 [0.0046, 0.0643]",0.0516,0.0,0.0,81.6,71.4,97.7,81.6,71.4,97.7
+Late (0.65T),Pylint 3.3 -> Ruff 0.17.5 (Pylint-PL Aligned),S3_SingleAnchor_Safeguarded_Ratio,1,49,1.72,0.1085,"0.0132 [0.0042, 0.0757]",0.1777,0.0,6e-05,85.7,71.4,100.0,85.7,71.4,100.0
+Late (0.65T),Pylint 3.3 -> Ruff 0.17.5 (Pylint-PL Aligned),S4_Window3_Moment_Affine,3,49,1.122,0.1412,"0.0104 [0.0031, 0.0559]",0.1996,0.0,0.0,87.8,69.4,97.1,87.8,69.4,97.1

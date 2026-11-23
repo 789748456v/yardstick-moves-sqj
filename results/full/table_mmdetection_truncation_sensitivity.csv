@@ -1,0 +1,7 @@
+analysis,transition,metric,n49_all_repos,n48_excl_mmdetection,max_abs_diff
+RQ3_4D_Shares,SQ 10.3 [N09] -> SQ 26.11 Comp MQR,HIGH,15.57/10.37/60.31/13.76,15.17/10.37/60.81/13.65,0.51
+RQ3_4D_Shares,SQ 9.9 LTA -> SQ 26.11 Comp MQR,HIGH,15.14/12.76/59.13/12.97,14.71/12.36/59.74/13.18,0.62
+RQ3_4D_Shares,SQ 26.11 Comp: Std -> MQR,HIGH,69.97/0.00/0.00/30.03,69.72/0.00/0.00/30.28,0.26
+RQ3_4D_Shares,SQ 26.11 Comp: Std -> MQR (Rel/Sec),REL_SEC,14.21/0.00/0.00/85.79,14.04/0.00/0.00/85.96,0.16
+RQ3_4D_Shares,SQ 10.3 [N09] -> SQ 26.11 Comp MQR (Rel/Sec),REL_SEC,3.47/8.31/20.10/68.11,3.31/8.38/19.76/68.56,0.45
+RQ4_TrackB_Mid_HistSlopeMAE,SQ 10.3 [N09] -> SQ 26.11 Comp MQR,S0_Naive / S2_1Anchor,0.1716 / 0.0300,0.1751 / 0.0304,0.0035

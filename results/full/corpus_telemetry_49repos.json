@@ -1,0 +1,55 @@
+{
+  "n_repositories": 49,
+  "n_snapshots": 882,
+  "n_transitions": 833,
+  "n_verified_sq_scans_loaded": 3528,
+  "n_verified_linter_scans_loaded": 7056,
+  "n_physical_scans": 10584,
+  "n_regime_snapshots": 13230,
+  "sq_alert_counts": {
+    "sq99_std": 1407341,
+    "sq103_n09": 1594327,
+    "sq26_mqr": 95015,
+    "sq26_comp_mqr": 1424079
+  },
+  "sq_observed_rule_counts": {
+    "sq99_std": 126,
+    "sq103_n09": 154,
+    "sq26_mqr": 124,
+    "sq26_comp_mqr": 268
+  },
+  "linter_alert_counts": {
+    "flake8_71": 15052787,
+    "ruff_01_default": 641492,
+    "ruff_01_extended": 12782538,
+    "ruff_modern_default": 4624434,
+    "ruff_modern_extended": 13354782,
+    "ruff_modern_pylint": 1920078,
+    "pylint_217": 18786966,
+    "pylint_33": 16745984
+  },
+  "linter_observed_rule_counts": {
+    "flake8_71": 120,
+    "ruff_01_default": 41,
+    "ruff_01_extended": 152,
+    "ruff_modern_default": 279,
+    "ruff_modern_extended": 185,
+    "ruff_modern_pylint": 73,
+    "pylint_217": 262,
+    "pylint_33": 268
+  },
+  "linter_non_catalog_parser_diagnostics": {
+    "ruff_modern_default": {
+      "invalid-syntax": 1
+    },
+    "ruff_modern_extended": {
+      "invalid-syntax": 1
+    },
+    "ruff_modern_pylint": {
+      "invalid-syntax": 1
+    }
+  },
+  "total_sq_alerts": 4520762,
+  "total_linter_alerts": 83909061,
+  "total_raw_alerts": 88429823
+}
