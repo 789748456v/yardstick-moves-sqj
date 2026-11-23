@@ -37,19 +37,19 @@ Because Manuscript **Fig. 1** is an inline LaTeX/TikZ workflow diagram and sever
 | **Table 2** (Top-17 Flagship Rules Fate) | `results/full/table1b_n09_top17_rules_fate.csv` | `scripts/enrich_sqj_archival_analysis.py` |
 | **Table 3** (CLI Linter Catalogs & Mapping) | `data/linter_catalogs.json`, `results/full/execution_audit_and_versions.json` | `scripts/export_archival_evidence.py` |
 | **Table 4** (PRISMA Funnel & SLOC Tiers) | `data/prisma_cohort_funnel.csv`, `data/probe_all_53_stage1_candidates.csv`, `results/full/corpus_telemetry_49repos.json` | `scripts/build_full_cohort_manifest.py` |
-| **Table 5** (RQ1 Multi-Gate Flip Rates & $\tau_b$) | `results/full/table1_multigate_flips_and_ranking.csv`, `results/full/table1_semver_monotone_sensitivity.csv` | `scripts/analyze_full_study.py` |
-| **Table 6** (RQ1 Cluster Bootstrap 95% CIs & IQR) | `results/full/table1d_cluster_bootstrap_and_iqr.csv` | `scripts/enrich_sqj_archival_analysis.py` |
-| **Table 7** (RQ1 Scale-Tier Flip Sensitivity) | `results/full/table1c_scale_stratified_flips.csv` | `scripts/analyze_full_study.py` |
-| **Table 8** (RQ2 Trend Reversals: Raw / FDR / HR / $q_{\mathrm{HR}}$) | `results/full/table2_longitudinal_trend_reversals_summary.csv`, `results/full/table2_per_repo_trends.csv`, `results/full/table_robustness_hr_fdr_and_floors.csv` | `scripts/analyze_full_study.py`, `scripts/compute_robustness_supplements.py` |
-| **Table 9** (RQ3 Zero-Residual 4D Accounting, $D_4$) | `results/full/table3_4d_effect_decomposition_summary.csv`, `results/full/table3_per_repo_4d.csv`, `results/full/table_mmdetection_truncation_sensitivity.csv` | `scripts/analyze_full_study.py` |
-| **Table 10** (RQ3 $D_5$ Hotspot Channel Split) | `results/full/table3b_hotspot_sensitivity.csv` | `scripts/analyze_full_study.py` |
-| **Table 11** & **Cases 1–4** (100-Slice Audit) | `results/full/table5_root_cause_taxonomy_summary.csv`, `results/full/table5_qualitative_100_slices.{csv,json}`, `results/full/selected_code_listings.json` | `scripts/analyze_full_study.py`, `scripts/enrich_sqj_archival_analysis.py` |
-| **Table 12** (RQ4 Track A CI Calibration) | `results/full/table4a_trackA_fingerprint_ci_calibration.csv` | `scripts/analyze_full_study.py` |
-| **Table 13** (RQ4 Track B 5-Strategy Benchmark) | `results/full/table4_dual_run_calibration_5strategies.csv` | `scripts/analyze_full_study.py` |
-| **Table 14** (RQ4 Multi-Anchor Switch Horizons) | `results/full/table4b_multi_anchor_sensitivity.csv` | `scripts/analyze_full_study.py` |
-| **Table 15** (RQ4 Consolidated Robustness Audit) | `results/full/table_robustness_w1_vs_w3_and_drift.csv`, `results/full/table_robustness_monotone_rq2_rq4.csv` | `scripts/compute_robustness_supplements.py` |
-| **Table 16** (CI Governance Playbook) | Synthesized from Tables 5–15 | — |
+| **Table 5** (RQ1 Multi-Gate Flip Rates & $\tau_b$) | `results/full/table1_multigate_flips_and_ranking.csv` | `scripts/analyze_full_study.py` |
+| **Table 6** (RQ2 Trend Reversals: Raw / FDR / HR / $q_{\mathrm{HR}}$) | `results/full/table2_longitudinal_trend_reversals_summary.csv`, `results/full/table2_per_repo_trends.csv`, `results/full/table_robustness_hr_fdr_and_floors.csv` | `scripts/analyze_full_study.py`, `scripts/compute_robustness_supplements.py` |
+| **Table 7** (RQ3 Zero-Residual 4D Accounting, $D_4$) | `results/full/table3_4d_effect_decomposition_summary.csv`, `results/full/table3_per_repo_4d.csv`, `results/full/table_mmdetection_truncation_sensitivity.csv` | `scripts/analyze_full_study.py` |
+| **Table 8** (RQ3 $D_5$ Hotspot Channel Split) | `results/full/table3b_hotspot_sensitivity.csv` | `scripts/analyze_full_study.py` |
+| **Table 9** & **Cases 1–4** (100-Slice Audit) | `results/full/table5_root_cause_taxonomy_summary.csv`, `results/full/table5_qualitative_100_slices.{csv,json}`, `results/full/selected_code_listings.json` | `scripts/analyze_full_study.py`, `scripts/enrich_sqj_archival_analysis.py` |
+| **Table 10** (RQ4 Track A CI Calibration) | `results/full/table4a_trackA_fingerprint_ci_calibration.csv` | `scripts/analyze_full_study.py` |
+| **Table 11** (RQ4 Track B 5-Strategy Benchmark) | `results/full/table4_dual_run_calibration_5strategies.csv` | `scripts/analyze_full_study.py` |
+| **Table 12** (RQ4 Consolidated Robustness Audit) | `results/full/table_robustness_w1_vs_w3_and_drift.csv`, `results/full/table_robustness_monotone_rq2_rq4.csv` | `scripts/compute_robustness_supplements.py` |
+| **Table 13** (CI Governance Playbook) | Synthesized from Tables 5–12 & Appendix B | — |
 | **Table A1** (Complete 49-Repo Cohort) | `results/full/table0_cohort_49repos.csv`, `data/full_releases_manifest.{csv,json}` | `scripts/analyze_full_study.py` |
+| **Table B1** (RQ1 Cluster Bootstrap 95% CIs & Flips) | `results/full/table1d_cluster_bootstrap_and_iqr.csv` | `scripts/enrich_sqj_archival_analysis.py` |
+| **Table B2** (RQ1 Scale-Tier & Monotone Sensitivity) | `results/full/table1c_scale_stratified_flips.csv`, `results/full/table1_semver_monotone_sensitivity.csv` | `scripts/analyze_full_study.py` |
+| **Table B3** (RQ4 Multi-Anchor Switch Horizons) | `results/full/table4b_multi_anchor_sensitivity.csv` | `scripts/analyze_full_study.py` |
 | **Fig. 1** (Study Design & Dual-Track Workflow) | Inline LaTeX/TikZ diagram in manuscript | — |
 | **Fig. 2** (Multi-Gate Flip Heatmap) | `results/full/figures/fig1_multigate_flip_heatmap.{pdf,png}` | `scripts/plot_full_figures.py` |
 | **Fig. 3** (Longitudinal Hard Reversals) | `results/full/figures/fig2_longitudinal_hard_reversals.{pdf,png}` | `scripts/plot_full_figures.py` |
